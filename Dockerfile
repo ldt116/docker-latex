@@ -6,6 +6,7 @@ RUN apt-get update -q && apt-get install -qy --no-install-recommends \
             gnuplot \
             build-essential \
             git \
+            curl \
     &&  rm -rf /var/lib/apt/lists/*
 
 WORKDIR /data

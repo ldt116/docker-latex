@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:xenial
 MAINTAINER Guus Kuiper
 
 RUN apt-get update -q && apt-get install -qy --no-install-recommends \
